@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="bottom"
+    android:paddingTop="20dp"
+    android:layout_marginTop="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/nav_header_circleimageview_id"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rashtrasant_university" />
+</LinearLayout>
